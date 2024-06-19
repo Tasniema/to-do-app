@@ -1,0 +1,17 @@
+.heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+}
+
+.heading h1 {
+  font-size: 4rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.secondray-color {
+  color: #ee6f57;
+}

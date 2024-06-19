@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  border: 1px solid #333;
+  margin: auto;
+}
+
+.todoitem {
+  margin: 2rem 0;
+  font-family: "Dosis", sans-serif;
+}
+
+.todoitem h1 {
+  background: #ee6f57;
+  padding: 1rem;
+  color: #f4f4f4;
+  transition: background 0.5s ease;
+}
+
+.updatebtn {
+  color: #f4f4f4;
+  background: #1f3c88;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: background 0.5s ease;
+  cursor: pointer;
+}
+
+.removebtn {
+  color: #f4f4f4;
+  background: #e42b06;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: background 0.5s ease;
+  cursor: pointer;
+}
+
+.todoitem h1:hover {
+  background: #1f3c88;
+}
+
+.todoitem:hover {
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ee6f57;
+  margin: 3rem 0 0.5rem 0;
+  font-size: 2rem;
+  transition: padding 0.5s ease;
+}
+
+.input:focus {
+  outline: none;
+  padding: 0.5rem;
+}
+
+.submitbtn {
+  color: #f4f4f4;
+  background: #ee6f57;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: background 0.5s ease;
+}
+
+.submitbtn:hover {
+  cursor: pointer;
+  background: #333;
+}
